@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Player : MonoBehaviour
+public class Ejercicio1 : MonoBehaviour
 {
 
     public string nombre = "Yago";
@@ -15,7 +15,7 @@ public class Player : MonoBehaviour
         Debug.Log("Hello Wolrd!");
         Debug.Log("Este es el primer videojuego de " + nombre);
         Debug.Log("Estoy aprendiendo C#");
-        
+
     }
 
     // Update is called once per frame
