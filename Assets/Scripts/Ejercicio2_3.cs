@@ -16,6 +16,7 @@ public class Ejercicio2_3 : MonoBehaviour
 
         float producto = vidas * exp;
         float cociente = vidas / exp;
+        float resto = vidas % exp;
         int dobleVidas = vidas * 2;
         float tripleExp = exp * 3;
 

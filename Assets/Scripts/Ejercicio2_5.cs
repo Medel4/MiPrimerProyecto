@@ -34,7 +34,7 @@ public class Ejercicio2_5 : MonoBehaviour
         
         vidasPlayer4 = vidasRobadas;
         Debug.Log("vidas player 4 " + vidasPlayer4);
-        Debug.Log("vidas player 2 " + vidasPlayer2);
+        Debug.Log("vidas player 2 " + vidasRobadas);
         
         Debug.Log("Los resultados son:");
 
