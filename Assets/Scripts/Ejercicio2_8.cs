@@ -5,8 +5,10 @@ using UnityEngine;
 public class Ejercicio2_8 : MonoBehaviour
 {
     float vida = 100f;
+    float venenoInicial = 0.03f;
     float veneno = 0.03f;
     float vidaInicial = 0;
+    int vecesVidaQuitada = 0;
 
     // Start is called before the first frame update
     void Start()
@@ -20,8 +22,16 @@ public class Ejercicio2_8 : MonoBehaviour
     void Update()
     {
 
-        Debug.Log("Su vida es de " + vida);
-        vida -= (vidaInicial * veneno);
+        if (vecesVidaQuitada <=4)
+        {
+
+            Debug.Log("Su vida es de " + vida);
+            vida -= (vidaInicial * veneno);
+            veneno = veneno + venenoInicial;
+            vecesVidaQuitada++;
+
+        }
+        
 
 
         
