@@ -16,9 +16,10 @@ public class Ejercicio4 : MonoBehaviour
     void Start()
     {
 
-        circulo = (radio * radio) * 3.14f;
-        triangulo = (basexd * altura) / 2;
-        cuadrado = lado * lado;
+        resultadoCirculo();
+        resultadoCuadrado();
+        resultadoTriangulo();
+        
 
         Debug.Log("EL area del circulo es " +  circulo);
         Debug.Log("EL area del triangulo es " +  triangulo);
@@ -32,5 +33,21 @@ public class Ejercicio4 : MonoBehaviour
     void Update()
     {
         
+    }
+
+    float resultadoCirculo ()         
+    {
+        circulo = (radio * radio) * 3.14f;
+        return circulo; 
+    }
+    float resultadoTriangulo()
+    {
+        triangulo = (basexd * altura) / 2;
+        return triangulo;
+    }
+    float resultadoCuadrado()
+    {
+        cuadrado = lado * lado;
+        return cuadrado;
     }
 }
