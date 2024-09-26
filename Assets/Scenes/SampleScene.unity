@@ -618,10 +618,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1237568239}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 663c3db1425f4c2468977d5e94acef18, type: 3}
+  m_Script: {fileID: 11500000, guid: d2f9a34ade2c50f4e969b5d63e8d8787, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  radio: 46
+  nivelPersonaje: 2
 --- !u!1 &1943731963
 GameObject:
   m_ObjectHideFlags: 0
@@ -652,7 +652,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   link: {fileID: 124183127}
-  mario: {fileID: 0}
+  mario: {fileID: 124183127}
 --- !u!4 &1943731965
 Transform:
   m_ObjectHideFlags: 0
